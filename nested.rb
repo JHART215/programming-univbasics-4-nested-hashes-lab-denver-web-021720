@@ -31,7 +31,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-@@ -55,6 +57,7 @@ def dennis_ritchies_language
+  @@ -55,6 +57,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
