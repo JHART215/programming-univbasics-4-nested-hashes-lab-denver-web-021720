@@ -1,10 +1,6 @@
 def hopper
-	programmer_hash = 
- 		{
-@@ -16,7 +15,7 @@ def hopper
-        }
+	programmer_hash = {@@ -16,7 +15,7 @@ def hopper}
      }
-
 
 programmer_hash[:grace_hopper]
 end
@@ -45,7 +41,6 @@ def adding_matz
           :languages => ["LISP", "C"]
         }
      }
-
 
 end
 
