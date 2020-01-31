@@ -70,16 +70,3 @@ end
      programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
      return programmer_hash
 end
- ProTip! Use n and p to navigate between commits in a pull request.
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
