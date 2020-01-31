@@ -1,7 +1,17 @@
 def hopper
 	programmer_hash = 
  		{
-@@ -16,7 +15,7 @@ def hopper
+        :grace_hopper => {
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
+        },
+        :alan_kay => {
+          :known_for => "Object Orientation",
+          :languages => ["Smalltalk", "LISP"]
+        },
+        :dennis_ritchie => {
+          :known_for => "Unix",
+          :languages => ["C"]
         }
      }
 
@@ -10,7 +20,20 @@ programmer_hash[:grace_hopper]
 end
 
 def alan_kay_is_known_for
-@@ -37,6 +36,7 @@ def alan_kay_is_known_for
+	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+	
+	programmer_hash = 
+ 		{
+        :grace_hopper => {
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
+        },
+        :alan_kay => {
+          :known_for => "Object Orientation",
+          :languages => ["Smalltalk", "LISP"]
+        },
+        :dennis_ritchie => {
+          :known_for => "Unix",
           :languages => ["C"]
         }
      }
@@ -18,7 +41,18 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-@@ -55,6 +55,7 @@ def dennis_ritchies_language
+	programmer_hash = 
+ 		{
+        :grace_hopper => {
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
+        },
+        :alan_kay => {
+          :known_for => "Object Orientation",
+          :languages => ["Smalltalk", "LISP"]
+        },
+        :dennis_ritchie => {
+          :known_for => "Unix",
           :languages => ["C"]
         }
      }
@@ -26,7 +60,11 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-@@ -66,7 +67,7 @@ def adding_matz
+# add the following information to the top level of programmer_hash
+# :yukihiro_matsumoto => {
+#   :known_for => "Ruby",
+#    :languages => ["LISP", "C"]
+# }
 
 	programmer_hash = 
  		{
@@ -35,7 +73,10 @@ def adding_matz
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
-@@ -77,10 +78,12 @@ def adding_matz
+        :alan_kay => {
+          :known_for => "Object Orientation",
+          :languages => ["Smalltalk", "LISP"]
+        },
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
@@ -50,7 +91,18 @@ def adding_matz
 end
 
 def changing_alan
-@@ -99,8 +102,9 @@ def changing_alan
+	programmer_hash = 
+ 		{
+        :grace_hopper => {
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
+        },
+        :alan_kay => {
+          :known_for => "Object Orientation",
+          :languages => ["Smalltalk", "LISP"]
+        },
+        :dennis_ritchie => {
+          :known_for => "Unix",
           :languages => ["C"]
         }
      }
@@ -61,7 +113,19 @@ def changing_alan
 
 
 end
-@@ -121,5 +125,6 @@ def adding_to_dennis
+def adding_to_dennis
+	programmer_hash = 
+ 		{
+        :grace_hopper => {
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
+        },
+        :alan_kay => {
+          :known_for => "Object Orientation",
+          :languages => ["Smalltalk", "LISP"]
+        },
+        :dennis_ritchie => {
+          :known_for => "Unix",
           :languages => ["C"]
         }
      }
