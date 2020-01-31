@@ -25,11 +25,7 @@ def alan_kay_is_known_for
 
 
 	programmer_hash = 
- 		{
-        :grace_hopper => {
-@@ -37,6 +38,7 @@ def alan_kay_is_known_for
-          :languages => ["C"]
-        }
+	   {:grace_hopper => {@@ -37,6 +38,7 @@ def alan_kay_is_known_for:languages => ["C"]}
      }
      programmer_hash[:alan_kay][:known_for]
 end
